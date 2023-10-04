@@ -1,0 +1,50 @@
+body{
+    background-color: #abf08f;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+h1{
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #209e54;
+}
+
+.cards_container{
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #5deb40;
+    color: #ffffff;
+    box-sizing: border-box;
+    height: 300px;
+    width: fit-content;
+}
+
+.card p{
+    text-align: center;
+    margin-top: 30px;
+    color: #209e54;
+}
+
+.tamanho{
+    display: block;
+    height: 100%;
+}
+
+main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 800px){
+
+    .cards_container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
